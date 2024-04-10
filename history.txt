@@ -1,0 +1,114 @@
+    1  cd C:\Users\iulii\OneDrive\Desktop
+    2  git clone git@github.com:iuliiafast/Demo-Fork.git
+    3  la -al
+    4  ls -al
+    5  git branch -v
+    6  git clone git@github.com:iuliiafast/GitHub.git
+    7  git checkout -b feature
+    8  git status
+    9  cd  /OneDrive/Desktop/linux
+   10  cd C:/users/iulii/OneDrive/Desktop/linux
+   11  git checkout -b feature
+   12  status
+   13  git status
+   14  cd
+   15   cd C:/users/iulii/OneDrive/Desktop/linux
+   16  git init
+   17  git checkout -b feature
+   18  git add .
+   19  git commit -m "Сообщение коммита"
+   20  git config --global user.email "iuliia914@gmail.com"
+   21  git config --global user.name "Iuliia Fast"
+   22  git commit -m "Сообщение коммита"
+   23  git push origin feature
+   24  git remote -v
+   25  git remote add origin git@github.com:iuliiafast/GitHub.git
+   26  git push add origin feature
+   27  git remote add origin git@github.com:iuliiafast/GitHub.git
+   28  git push origin feature
+   29  ls -al ~/.ssh
+   30  cat ~/.ssh/id_rsa.pub
+   31  cd
+   32  ls ~/.ssh
+   33  cat ~/.ssh/id_rsa.pub
+   34  echo SHA256:7UEjTIH64hcUpnBWKP9ig6eGUAHzYKJoTPhXSkfP0vs >> ~/.ssh/id_rsa.pub
+   35  cat ~/.ssh/id_rsa.pub
+   36  ssh-keygen -t rsa -b 4096 -C iuliia914@gmail.com
+   37  cat ~/.ssh/id_rsa.pub
+   38  git push origin feature
+   39  cd C:/users/iulii/OneDrive/Desktop/linux
+   40  git push origin feature
+   41  git pull origin feature
+   42  git pull origin feature --allow-unrelated-histories
+   43  nano README.md
+   44  git pull origin feature --allow-unrelated-histories
+   45  git status
+   46  nano .gitignore
+   47  nano README.md
+   48  git add README.md
+   49  git commit
+   50  cd GitHub
+   51  git branch feature
+   52  git checkout feature
+   53  git add README.md .gitignore
+   54  git commit -m "Добавлены изменения к README.md and .gitignore" 
+   55  git push origin feature
+   56  git pull origin feature
+   57  git push origin feature
+   58  git commit --amend --no-edit
+   59  git reset HEAD^
+   60  cd GitHub
+   61  ls
+   62  git commit --amend
+   63  cat ~/.git/COMMIT_EDITMSG
+   64  cd C:/users/iulii/OneDrive/Desktop/linux
+   65  git push origin feature
+   66  git commit --amend
+   67  git merge --continue
+   68  git rev-parse --show-toplevel
+   69  rm .git/MERGE_HEAD
+   70  git merge --abort
+   71  git reset
+   72  git status
+   73  git add File\ \(1\).txt git44 git45
+   74  git status
+   75  git commit -m "Remove deleted files"
+   76  git commit --amend
+   77  chmod +w .git/COMMIT_EDITMSG
+   78  cd C: /users/iulii/OneDrive/Desktop/linux
+   79   cd C:/users/iulii/OneDrive/Desktop/linux
+   80  chmod +w .git/COMMIT_EDITMSG
+   81  lsof .git/COMMIT_EDITMSG
+   82  git add .gitignore README.md
+   83  git commit -m "Resolved merge conflicts and added .gitignore file"
+   84  git commit -m "Сообщение коммита"
+   85  git add .
+   86  git commit -m "Your commit message"
+   87  git push origin feature
+   88  git pull origin feature
+   89  git merge --allow-unrelated-histories origin/feature
+   90  git push origin feature
+   91  git status
+   92  git merge --abort
+   93  git push origin feature
+   94  git pull
+   95  git pull remote
+   96  cd ..
+   97  ls -al
+   98  mkdir GIT
+   99  cd GIT
+  100  git clone git@github.com:iuliiafast/HOMEWORK12.git
+  101  ls -al
+  102  cd HOMEWORK12
+  103  nano .gitignore
+  104  git checkout -b feature
+  105  git status
+  106  git add .gitignore
+  107  git commit -m "изменение на ветке"
+  108  git push 
+  109  git push --set-upstream origin feature
+  110  git commit --amend "ammended feature"
+  111  git commit --amend -m "ammended feature"
+  112  git checkout main
+  113  git merge feature
+  114  history > history.txt
